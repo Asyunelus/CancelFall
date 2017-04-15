@@ -1,0 +1,11 @@
+name: CancelFall
+main: meta\cancelFall\CancelFall
+author: "Team. Metatron"
+version: "1.0-Alpha"
+api:
+- 3.0.0
+- 2.1.0
+- 2.0.0
+- 1.13.0
+- 1.12.0
+- 1.11.0
