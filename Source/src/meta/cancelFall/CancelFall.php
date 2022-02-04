@@ -8,5 +8,6 @@ class CancelFall extends \pocketmine\plugin\PluginBase implements \pocketmine\ev
  }
  public function onDamage (\pocketmine\event\entity\EntityDamageEvent $ev) {
    if ($ev->getCause() == \pocketmine\event\entity\EntityDamageEvent::CAUSE_FALL) $ev->setCancelled ();
+   //blah
   }
 }
